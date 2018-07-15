@@ -1,0 +1,132 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+}
+
+.text {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+	font-size: 30px;
+	line-height: 40px;
+	text-align: justify;
+}
+
+#next {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: gray;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .text {
+    	font-size: 20px;
+    	line-height: inherit;
+    	text-align: left;
+    }
+
+    img {
+    	display: none;
+    }
+}
+
+.images {
+	text-align: center;
+}
+
+img {
+	position: relative;
+	top: 0;
+	transition: top ease 0.5s;
+}
+
+img:hover {
+	top: -10px;
+}
+
+a {
+	color: #2196f3;
+	text-decoration: none;
+	border-bottom: 2px solid #2196f3;
+	padding-left: 3px;
+	padding-right: 3px;
+
+	-o-transition: .4s;
+	-ms-transition: .4s;
+	-moz-transition: .4s;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+a:hover {
+	color: white;
+	background-color: #2196f3;
+}
+
+/* -------------- SLIDES -------------- */
+
+#intro {
+	color: black;
+	background-color: white;
+	/* background: linear-gradient(to right, #fdfbfb, #ebedee); */
+}
+
+#interests {
+	display: none;
+	color: white;
+	background-color: black;
+}
+
+#past-projects {
+	display: none;
+	color: black;
+	background: white;
+}
+
+#anns {
+	display: none;
+	color: black;
+	background-color: white;
+}
+
+#weather-station {
+	display: none;
+	color: white;
+	background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+#gci {
+	display: none;
+	color: white;
+	background: linear-gradient(to right, #673ab7, #512da8);
+}
+
+#ml {
+	display: none;
+	color: white;
+	background-color: black;
+}
+
+#end {
+	display: none;
+	color: black;
+	background-color: white;
+}
+
