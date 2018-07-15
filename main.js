@@ -14,6 +14,13 @@ function changeSlide() {
 	}
 }
 
+$('html').click(function(e) {
+	if(!$(e.target).closest('a').length)
+   {
+       changeSlide();             
+   }
+});
+
 $('body').keypress(function() {
 	changeSlide();
 });
