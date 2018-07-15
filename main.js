@@ -18,6 +18,4 @@ $('body').keypress(function() {
 	changeSlide();
 });
 
-$('body').on('swipe', swipeHandler);
-
 tippy('a')
