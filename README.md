@@ -1,2 +1,3 @@
-# hello
-This is a short description website of me and my projects created for Hack the North application.
+# Hello_HTN
+This is a simple website about me and some of my projects. It was created to attach it to Hack the North application.
+<img src="https://raw.githubusercontent.com/gstark0/Hello_HTN/master/gallery.png">
